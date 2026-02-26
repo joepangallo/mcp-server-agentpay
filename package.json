@@ -1,0 +1,60 @@
+{
+  "name": "mcp-server-agentpay",
+  "version": "1.1.0",
+  "mcpName": "io.github.joepangallo/agent-pay",
+  "description": "MCP server for AgentPay — the payment gateway for autonomous AI agents. Discover, provision, and pay for MCP tool APIs. Includes reliability monitoring with circuit breakers and health metrics.",
+  "bin": {
+    "mcp-server-agentpay": "index.js"
+  },
+  "keywords": [
+    "mcp",
+    "mcp-server",
+    "model-context-protocol",
+    "agent-payment",
+    "agent-wallet",
+    "agent-gateway",
+    "payment-gateway",
+    "ai-agent",
+    "ai-tools",
+    "autonomous-agent",
+    "tool-discovery",
+    "tool-marketplace",
+    "api-marketplace",
+    "metered-billing",
+    "pay-per-use",
+    "claude",
+    "claude-code",
+    "llm",
+    "llm-tools",
+    "chatgpt",
+    "openai",
+    "agent-economy",
+    "machine-to-machine",
+    "api-credits",
+    "x402",
+    "crypto-payment",
+    "usdc",
+    "autonomous-funding",
+    "web3"
+  ],
+  "license": "MIT",
+  "author": "MetalTorque",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/joepangallo/mcp-server-agentpay"
+  },
+  "homepage": "https://agentpay.metaltorque.dev",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.27.0",
+    "zod": "^3.23.0"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "files": [
+    "index.js",
+    "README.md",
+    "server.json",
+    "package.json"
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.joepangallo/agent-pay",
+  "description": "Payment gateway for AI agents. Tool discovery, provisioning, pay-per-call metering, and reliability monitoring with circuit breakers.",
+  "repository": {
+    "url": "https://github.com/joepangallo/mcp-server-agentpay",
+    "source": "github"
+  },
+  "version": "1.1.0",
+  "packages": [
+    {
+      "registryType": "npm",
+      "identifier": "mcp-server-agentpay",
+      "version": "1.1.0",
+      "transport": {
+        "type": "stdio"
+      },
+      "environmentVariables": [
+        {
+          "description": "Your AgentPay gateway key (starts with apg_)",
+          "isRequired": true,
+          "format": "string",
+          "isSecret": true,
+          "name": "AGENTPAY_GATEWAY_KEY"
+        },
+        {
+          "description": "Admin key for reliability endpoints (circuit breakers, health metrics, config)",
+          "isRequired": false,
+          "format": "string",
+          "isSecret": true,
+          "name": "AGENTPAY_ADMIN_KEY"
+        },
+        {
+          "description": "AgentPay API URL",
+          "isRequired": false,
+          "format": "string",
+          "isSecret": false,
+          "name": "AGENTPAY_URL"
+        }
+      ]
+    }
+  ]
+}
