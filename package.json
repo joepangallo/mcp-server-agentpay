@@ -1,6 +1,6 @@
 {
   "name": "mcp-server-agentpay",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "mcpName": "io.github.joepangallo/agent-pay",
   "description": "MCP server for AgentPay — the payment gateway for autonomous AI agents. Discover, provision, and pay for MCP tool APIs. Includes reliability monitoring with circuit breakers and health metrics.",
   "bin": {
@@ -43,7 +43,7 @@
     "type": "git",
     "url": "https://github.com/joepangallo/mcp-server-agentpay"
   },
-  "homepage": "https://agentpay.metaltorque.dev",
+  "homepage": "https://pay.leddconsulting.com",
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.27.0",
     "zod": "^3.23.0"

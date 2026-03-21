@@ -35,7 +35,7 @@ Or add to `~/.claude/settings.json`:
 ## Get a Gateway Key
 
 ```bash
-curl -X POST https://agentpay.metaltorque.dev/gateway/register \
+curl -X POST https://pay.leddconsulting.com/gateway/register \
   -H "Content-Type: application/json" \
   -d '{"email": "you@example.com"}'
 ```
@@ -98,19 +98,19 @@ Use `fund_wallet_x402` — returns endpoint, network, and instructions for auton
 |----------|----------|-------------|
 | `AGENTPAY_GATEWAY_KEY` | Yes | Your gateway API key (starts with `apg_`) |
 | `AGENTPAY_ADMIN_KEY` | No | Admin key for reliability endpoints |
-| `AGENTPAY_URL` | No | Custom gateway URL (default: `https://agentpay.metaltorque.dev`) |
+| `AGENTPAY_URL` | No | Custom gateway URL (default: `https://pay.leddconsulting.com`) |
 
 ## Available Tools (via gateway)
 
 - **Security Audit** — scan websites for vulnerabilities, SSL issues, OWASP risks
 - **IndexForge SEO** — submit URLs to Google/Bing, scan sitemaps, check index status
 
-More tools added regularly. Developers can register tools at the [marketplace](https://agentpay.metaltorque.dev/docs).
+More tools added regularly. Developers can register tools at the [marketplace](https://pay.leddconsulting.com/docs).
 
 ## Links
 
-- [API Docs](https://agentpay.metaltorque.dev/docs)
-- [Status Page](https://agentpay.metaltorque.dev/status)
+- [API Docs](https://pay.leddconsulting.com/docs)
+- [Status Page](https://pay.leddconsulting.com/status)
 - [MCP Registry](https://registry.modelcontextprotocol.io) — `io.github.joepangallo/agent-pay`
 
 ## License

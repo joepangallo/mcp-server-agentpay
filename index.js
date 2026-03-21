@@ -11,7 +11,7 @@ const { version } = require("./package.json");
 
 const GATEWAY_KEY = process.env.AGENTPAY_GATEWAY_KEY || "";
 const ADMIN_KEY = process.env.AGENTPAY_ADMIN_KEY || "";
-const BASE_URL = (process.env.AGENTPAY_URL || "https://agentpay.metaltorque.dev").replace(/\/$/, "");
+const BASE_URL = (process.env.AGENTPAY_URL || "https://pay.leddconsulting.com").replace(/\/$/, "");
 
 // ── HTTP helper ─────────────────────────────────────────────────────
 
@@ -73,7 +73,7 @@ function request(method, urlPath, body, timeout = 120_000) {
 
 function noKeyError() {
   return {
-    content: [{ type: "text", text: "Error: AGENTPAY_GATEWAY_KEY environment variable is required.\n\nRegister at https://agentpay.metaltorque.dev to get a gateway key.\nYou get $1 in free credits to start." }],
+    content: [{ type: "text", text: "Error: AGENTPAY_GATEWAY_KEY environment variable is required.\n\nRegister at https://pay.leddconsulting.com to get a gateway key.\nYou get $1 in free credits to start." }],
   };
 }
 
