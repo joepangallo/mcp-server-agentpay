@@ -116,3 +116,8 @@ More tools added regularly. Developers can register tools at the [marketplace](h
 ## License
 
 MIT
+
+## Hosted deployment
+
+A hosted deployment is available on [Fronteir AI](https://fronteir.ai/mcp/joepangallo-mcp-server-agentpay).
+
